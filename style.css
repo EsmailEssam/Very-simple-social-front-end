@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+body{
+    background: #f0f2f5;
+    font-family: inherit;
+    
+}
+.contant{
+    margin: 180px 250px 0 150px;
+    display: flex;
+    align-items: center;
+}
+.leftcontent{
+    display: inline-block;
+    margin-left: 100px;
+}
+.logo{
+    display: inline-block;
+    width: 250px;
+    height: 30%;
+}
+h2{
+    display: inline-block;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin-right: 30px;
+    margin-top: 10px;
+    position: relative;
+}
+.rightcontent{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    width: 100%;
+}
+.divform{
+    
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 20px;
+    display:inline-block;
+    margin-bottom:10px ;
+
+}
+.inputcont{
+    position: relative;
+    margin-bottom: 25px;
+    display: block;
+}
+input{
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    color: #1d2129;
+    
+}
+.inputcont.success input{
+    border: 1px solid #2ecc71;
+}
+.inputcont.error input{
+    border: 1px solid #e74c3c;
+}
+.inputcont small{
+    visibility: hidden;
+    position: absolute;
+}
+.inputcont.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+button{
+    display: inline-block;
+    font-weight: bold;
+}
+button.login{
+    background: #1877f2;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+button.login:hover{
+    background: #4368ad;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.Forgottenpass{
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+hr:not([size]){
+    height: 1px;
+}
+hr{
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+button.creat{
+    background: #45bb2e;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center
+}
+button.creat:hover{
+    background: #36a420;
+}
+
+.under{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    top: 540px;
+    left: 895px;
+    line-height: 1.34;
+}
+a.craetpage{
+    direction: none;
+    font-weight: 600;
+    color: inherit;
+}
+.footer{
+    display: block;
+    text-align: center;
+    padding: 10px 0px 20px;
+    color: #9a9a9a;
+    font-size: 13px;
+}
+
+@media (max-width: 767.98px) {
+
+    .contant{
+        margin: 20% 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftcontent{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .leftcontent h2{
+        display: none;
+    }
+    
+}
